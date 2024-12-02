@@ -1,0 +1,18 @@
+.home-footer {
+    padding: 107px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-color: #11071F;
+}
+
+.home-footer p {
+    font-size: 15px;
+}
+
+.social {
+ display: flex;
+ flex-direction: row;
+ gap: 29px;
+}

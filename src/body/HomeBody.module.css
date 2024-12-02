@@ -1,0 +1,36 @@
+.homeBody {
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 0 40px;
+    background-color: #11071F;
+    flex-direction: column;
+}
+.container {
+  padding-top: 36px;
+  text-align: left;
+  flex-direction: column;
+      background: 
+    radial-gradient(50% 50% at 50% 50%, #763CAC 10%, rgba(50, 15, 133, 0) 80%) 700px 350px / 450px 450px no-repeat,
+    radial-gradient(50% 50% at 50% 50%, #763CAC 10%, rgba(118, 60, 172, 0) 80%) 550px 400px / 550px 550px no-repeat;
+   pointer-events: auto;
+ }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .homeBody {
+        height: auto; 
+        padding: 20px; 
+        align-items: flex-start; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .homeBody {
+        padding: 10px; 
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+
+.work-experience {
+    display: flex;
+    flex-direction: row;
+    height: 192.68px;
+    background: linear-gradient(110.49deg, 
+        #130428 20%, 
+        #251043 68%, 
+        #38126D 85%, 
+        #261045 95%, 
+        #190634 100%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    border-top: 2px solid #4F228D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pp {
+    padding-left: 15px;
+    font-family: "Poppins", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-experience:hover {
+    transform: scale(1.05);
+}
+
+.work-experience img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .work-experience {
+        width: 90%; 
+        flex-direction: column;
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .pp {
+        padding-left: 0; 
+        padding-top: 10px; 
+        align-items: center;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .work-experience {
+        width: 100%; 
+        padding: 15px;
+    }
+
+    .pp {
+        padding-top: 5px; 
+    }
+}

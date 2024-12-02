@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Preahvihear";
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+}
+
+#root {
+  width: 100%;
+}

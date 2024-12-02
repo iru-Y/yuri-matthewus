@@ -1,0 +1,6 @@
+.bitmap {
+  display: flex;
+  padding-top: 200px;
+  flex-direction: column;
+  align-items: center; 
+}

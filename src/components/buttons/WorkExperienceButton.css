@@ -1,0 +1,10 @@
+.button {
+box-sizing: border-box;
+width: 119px;
+height: 33px;
+
+background: #2C1250;
+border: 1px solid #693B93;
+border-radius: 10px;
+
+}
