@@ -1,0 +1,28 @@
+{
+  "workSection": {
+    "title": "Experiência",
+    "workExperiences": [
+      {
+        "img": "/zoe-express.svg",
+        "ptext": "Zoé Express",
+        "stext": "Projeto para uma empresa de entregas, onde colaborei com um colega no desenvolvimento do front-end. Fiquei responsável pelo back-end e deploy. Foi o meu primeiro projeto real, mas acabou sendo descontinuado devido ao fechamento da empresa. Nesse projeto utilizei Java com Spring para o backend, utilizei do banco de dados postgres com JPA para o ORM, assim como ferramentas de logs como o log4j2, arquitetura mvc, spring mail para envio de emails e jwt para autenticação, além de várias outras ferramentas."
+      },
+      {
+        "img": "/agnusdei.png",
+        "ptext": "Rede Agnus Dei",
+        "stext": "Fundada em 2017, a Agnus Dei é uma empresa inovadora no setor da moda e utilidades. Utilizei Golang para o backend, usando do gin para montar apis rest, swagger para documentação, arquitetura limpa, slog para logging e debug. O projeto já se encontra no ar e em uso atendendo mais de 500 clientes por dia."
+      },
+      {
+        "img": "/draftmaster.png",
+        "ptext": "Draft Master",
+        "stext": "O aplicativo DraftMaster foi desenvolvido para ajudar coachs e jogadores a ter um melhor desempenho em suas partidas. Aqui utilizei Flutter e golang com o propósito de criar um sistema multiplataformas. Utilizei do Flutter com screenUtils, pacote esse que uso para resposividade, http para requisições ao servidor, Google Mobile ADS para monetização, além de pacotes essenciais como cached_network_image, url_launcher, shared_preferences. Pro lado servidor utilizei golang com gin para api rest, swagger e slog, go mail para envio de emails e jwt para autenticação."
+      },
+      {
+        "img": "/alphaTv.png",
+        "ptext": "Alpha Tv",
+        "stext": "Aplicativo móvel para streaming de filmes e séries, com mais de 1000 canais, séries e filmes. Seu layout adaptável se ajusta tanto para celular quanto para tv box. Aqui utilizei do http para requisições, flutter_dotenv para esconder chaves e apis, video_player para otimizações de vídeo e montar layouts de reprodutores de vídeos, também foi usado o screen_utils, apesar de ter sido relativamente simples, esse projeto me dá uma renda extra. Além de aprender a lidar diretamente com clientes e desenvolver softskills."
+      }
+    ]
+  }
+}
+

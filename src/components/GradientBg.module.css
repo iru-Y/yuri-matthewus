@@ -1,11 +1,9 @@
-/* src/components/GradientBackground.module.css */
 .gradientBackground {
-  position: absolute; /* Fica atrás do conteúdo */
-  top: 0;
+  position: absolute;   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1; /* Garantir que fique abaixo do conteúdo */
+  z-index: -1; 
   background: 
     radial-gradient(circle, #763CAC 10%, rgba(50, 15, 133, 0.8) 60%, rgba(50, 15, 133, 0) 100%) no-repeat center / 100% 100%, 
     radial-gradient(circle, #763CAC 10%, rgba(118, 60, 172, 0.6) 60%, rgba(118, 60, 172, 0) 100%) no-repeat center / 100% 100%;

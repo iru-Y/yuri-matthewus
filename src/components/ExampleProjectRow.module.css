@@ -1,0 +1,76 @@
+.example {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.leftSide{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.leftSide h1{
+  margin-left: 200px;
+  font-size: 8px;
+}
+
+.leftSide h2{
+  font-size: 12px;
+  margin-left: 200px;
+  padding-bottom: 20px ;
+}
+
+
+.leftSide p {
+  position: relative;
+  left: 200px;
+  border-radius: 14px;
+  background: radial-gradient(100% 143.01% at 15.32% 21.04%,
+  rgba(105, 59, 147, 0.2) 0%,
+    rgba(110, 191, 244, 0.0447917) 100%,
+  rgba(70, 144, 213, 0) 100%); 
+  padding: 20px 20px;
+  width: 500px;
+  font-size: 10px;
+}
+
+
+.leftSide li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.rightSide {
+  width: 582px;
+  height: 341px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 669px;
+height: 165px;
+left: 460px;
+top: 2886px;
+
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+background-blend-mode: overlay, normal;
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 14px;
+

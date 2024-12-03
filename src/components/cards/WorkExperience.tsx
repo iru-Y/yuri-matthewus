@@ -20,8 +20,11 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({
     <div className="work-experience">
       <img src={img} alt=""/>
       <div className="pp">
+        <div className="ts">
         <p style={{ fontSize: 26 , fontFamily:  "Poppins", fontWeight: "bolder"}}>{ptext}</p>
-        <p style={{ fontSize: 8,  fontFamily:  "Poppins", fontWeight: "bolder" }}>{stext}</p>
+        <p style={{ fontSize: 11,  fontFamily:  "Poppins", fontWeight: "bolder" }}>{stext}</p>
+
+        </div>
         <WorkExperienceButton  onPress={onClick}/>
       </div>
     </div>

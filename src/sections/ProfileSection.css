@@ -1,6 +1,7 @@
 .container {
   position: relative; 
   padding-top: 36px;
+  padding-left: 16rem;
   align-items: center;
   justify-content: center;
   text-align: left;
@@ -46,9 +47,7 @@
 }
 
 .profession-text {
-  width: 40vw;
   text-align: start;
-
   font-size: 35px;
 }
 

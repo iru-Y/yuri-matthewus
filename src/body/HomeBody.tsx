@@ -2,6 +2,7 @@ import styles from  "./HomeBody.module.css";
 import ProfileSection from "../sections/ProfileSection";
 import WorkSection from "../sections/WorkSection";
 import LookingFor from "../sections/LookingFor";
+import ExampleProject from "../sections/ExampleProject";
 
 interface HomeBodyProps {
   bodyRef: React.RefObject<HTMLDivElement>;
@@ -15,7 +16,9 @@ const HomeBody: React.FC<HomeBodyProps> = ({ bodyRef }) => {
 
         <WorkSection bodyRef={bodyRef} />
         <LookingFor/>
-           </div > 
+       
+      </div > 
+ <ExampleProject/>
          </div>
   );
 };

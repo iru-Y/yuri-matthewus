@@ -20,10 +20,14 @@ const scrollToFooter = () =>{
 
   return (
     <>
+    <div  >
     <HomeHeader headerRef={headerRef} scrollToHeader={scrollToHeader} scrollToBody={scrollToBody} scrollToFooter={scrollToFooter}/>
 
         <HomeBody   bodyRef={bodyRef}/>
         <HomeFooter footerRef={footerRef}/>
+
+    </div>
+
     </>
   );
 };
