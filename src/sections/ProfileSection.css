@@ -7,6 +7,30 @@
   text-align: left;
   flex-direction: column;
   width: 100%;
+  height: 100vh;
+  z-index: 1;
+ }
+
+.gradient-left {
+  position: absolute;
+  width: 38rem;
+  height: 40rem;
+  left: 674px;
+  top: 290px;
+  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  z-index: -1;
+  pointer-events: none;
+ }
+
+.gradient-right {
+  position: absolute;
+  width: 25rem;
+  height: 27rem;
+  left: 996px;
+  top: 246px;
+  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .my-name {
@@ -21,7 +45,7 @@
 }
 
 .my-name img {
-  padding-top: 5%;
+  padding-top: 2%;
   padding-right: 5px;
   padding-left: 130px;
 }
@@ -37,7 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: end;
+  justify-content: center;
 }
 
 .profession-title {
@@ -47,6 +71,7 @@
 }
 
 .profession-text {
+  width: 500px;
   text-align: start;
   font-size: 35px;
 }

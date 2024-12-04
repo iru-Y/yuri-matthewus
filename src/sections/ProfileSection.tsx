@@ -6,6 +6,8 @@ const ProfileSection = () => {
       <div className="container">
 
         <div className="wrapper">
+          <div className="gradient-left" ></div>
+          <div className="gradient-right"></div>
           <div className="my-name">
             <img src="/profile-arrow.svg" alt="Seta de perfil" />
             <p>Olá! Eu sou </p>

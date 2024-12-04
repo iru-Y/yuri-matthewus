@@ -2,6 +2,7 @@ import './HomeHeader.css'
 import '../components/buttons/HeaderButton.css'
 import HeaderButton from '../components/buttons/HeaderButton';
 import React, {useState} from 'react'
+import ProfileSection from '../sections/ProfileSection';
 
 interface HomeHeaderProps {
   scrollToHeader: ()=>void;
@@ -17,7 +18,8 @@ const HomeHeader: React.FC<HomeHeaderProps> = ({scrollToHeader, scrollToBody, sc
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-    return (
+  return (
+    <>
       <div className="homeHeader" ref={headerRef}>
           
           
@@ -29,13 +31,20 @@ const HomeHeader: React.FC<HomeHeaderProps> = ({scrollToHeader, scrollToBody, sc
 
       <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
         <ul className="group-headerButton">
+
+        <h1 style={{textAlign: "start"}}>Este site está em construção</h1>
+
          <HeaderButton  targetRef={scrollToHeader} text='Ínicio'  />
          <HeaderButton targetRef={scrollToBody} text='Sobre'/>
          <HeaderButton targetRef={scrollToFooter} text='Contato'/>
         </ul>
       </nav>
-        </div>
           
+    </div>
+    
+      <ProfileSection />
+
+    </>    
     );
 };
 

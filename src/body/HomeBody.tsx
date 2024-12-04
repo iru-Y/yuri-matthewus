@@ -1,5 +1,4 @@
 import styles from  "./HomeBody.module.css";
-import ProfileSection from "../sections/ProfileSection";
 import WorkSection from "../sections/WorkSection";
 import LookingFor from "../sections/LookingFor";
 import ExampleProject from "../sections/ExampleProject";
@@ -10,10 +9,9 @@ interface HomeBodyProps {
 
 const HomeBody: React.FC<HomeBodyProps> = ({ bodyRef }) => {
   return (
-      <div className={styles.homeBody}>
-        <div className ={styles.container} >
-        <ProfileSection />
-
+    <div className={styles.homeBody}>
+             <div className ={styles.container} >
+        
         <WorkSection bodyRef={bodyRef} />
         <LookingFor/>
        
